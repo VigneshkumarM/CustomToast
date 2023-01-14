@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // sample comment
         button1.setOnClickListener {
             DToast.normal(this,"Hello",Toast.LENGTH_LONG,"#000000","#ffffff")
         }
